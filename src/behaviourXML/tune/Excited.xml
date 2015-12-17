@@ -1,0 +1,37 @@
+<Behaviour id="Excited" type="Expressive" userPreference="0">
+  <Channel id="tune" m_msec1="0" m_msec2="0" m_msec3="0" m_note1="0" m_note2="-12" m_note3="+12">  
+    <Seq1>
+      <J0 msec="10"   note="78" md="1"/>
+      <J1 msec="10"   note="80" md="1"/>
+      <J2 msec="10"   note="83" md="1"/>
+      <J3 msec="10"   note="78" md="1"/>
+      <J4 msec="10"   note="80" md="1"/>
+      <J5 msec="10"   note="80" md="1"/>
+    </Seq1>  
+    <Seq2>
+      <J0 msec="10"   note="78" md="1"/>
+      <J1 msec="10"   note="80" md="1"/>
+      <J2 msec="10"   note="83" md="1"/>
+      <J3 msec="10"   note="78" md="1"/>
+      <J4 msec="10"   note="80" md="1"/>
+      <J5 msec="10"   note="80" md="1"/>
+     </Seq2>
+    <Seq3>
+      <J0 msec="10"   note="78" md="1"/>
+      <J1 msec="10"   note="80" md="1"/>
+      <J2 msec="10"   note="83" md="1"/>
+      <J3 msec="10"   note="78" md="1"/>
+      <J4 msec="10"   note="80" md="1"/>
+      <J5 msec="10"   note="80" md="1"/>
+    </Seq3>  
+    <Seq4>
+      <J0 msec="10"   note="78" md="1"/>
+      <J1 msec="10"   note="80" md="1"/>
+      <J2 msec="10"   note="83" md="1"/>
+      <J3 msec="10"   note="78" md="1"/>
+      <J4 msec="10"   note="80" md="1"/>
+      <J5 msec="10"   note="80" md="1"/>
+     </Seq4>
+  </Channel>
+</Behaviour>
+

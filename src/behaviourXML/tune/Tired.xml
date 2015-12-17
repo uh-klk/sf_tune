@@ -1,0 +1,16 @@
+<Behaviour id="Tired" type="Expressive" userPreference="0">
+  <Channel id="tune" m_msec1="0" m_msec2="0" m_msec3="0" m_note1="0" m_note2="-12" m_note3="+12">  
+    <Seq1>
+      <J0 msec="45"   note="70"  md="1"/>
+      <J1 msec="40"   note="64"  md="1"/>
+      <J2 msec="50"   note="43"  md="1"/>
+      <J3 msec="60"   note="40"  md="1"/>
+    </Seq1>  
+    <Seq2>
+      <J0 msec="45"   note="70"  md="1"/>
+      <J1 msec="40"   note="64"  md="1"/>
+      <J2 msec="50"   note="43"  md="1"/>
+      <J3 msec="60"   note="40"  md="1"/>
+     </Seq2>
+  </Channel>
+</Behaviour>
