@@ -1,7 +1,7 @@
 //TuneParcer: Reads tune from a XML file, interpretes and returns
 // a sequence of tones at a time taking into account of the sequence's
 // timing
-// Todo: - taking user preferences into account
+// Todo: - taking user preferences into account (preference from topic to compile the tune)
 //       - better name for TuneTargetState
 
 #ifndef TUNE_PARSER_HPP_INCLUDED
