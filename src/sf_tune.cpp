@@ -16,6 +16,7 @@ public:
 
         tune_parser_ = new TuneParser(xml_path_ );
     }
+
     ~SFTune() {}
 
     void init();
@@ -74,12 +75,17 @@ void SFTune::playRequestedTune()
     }
 }
 
-int main(int argc, char** argv)
+int main(int argc, char* argv[])
 {
+    string tuneXML_path = "behaviourXML/tune/"; //default path
+    
     ros::init(argc, argv, "sf_tune");
     ros::NodeHandle n(std::string("~"));
+    
+    n.getParam("tuneXML_path",tuneXML_path);    //load the param from launch file into the variable
 
-    SFTune *sf_tune = new SFTune("behaviourXML/tune/", n);
+    ROS_INFO("%s", tuneXML_path.c_str());
+    SFTune *sf_tune = new SFTune(tuneXML_path, n);
 
     sf_tune->init(); //init subscriber and publisher
 

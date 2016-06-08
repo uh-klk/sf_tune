@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="sf_tune" type="sf_tune" name="sf_tune" output="screen">
+       <param name="tuneXML_path" value="$(find sf_tune)/src/behaviourXML/tune/" />
+       <remap from="/RosAria/aria_midi" to="/sf_aria_driver/aria_midi" />
+
+    </node>
+</launch>
